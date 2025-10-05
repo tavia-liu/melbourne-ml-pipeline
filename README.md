@@ -1,16 +1,16 @@
-# Melbourne Housing ML 🏠
+# Melbourne Housing ML 
 
 End-to-end supervised machine learning pipeline predicting Melbourne housing prices using Python, scikit-learn, and feature engineering.
 
 ---
 
-## 📘 Overview
+## Overview
 This project builds a **full ML regression pipeline** to predict housing prices in Melbourne using the Kaggle [Melbourne Housing Snapshot](https://www.kaggle.com/datasets/dansbecker/melbourne-housing-snapshot).  
 It covers the complete data science workflow — from data profiling and preprocessing to feature engineering, model comparison, and evaluation.
 
 ---
 
-## 🚀 Features
+## Features
 - **Data Preprocessing:** Imputation, one-hot encoding, and scaling using scikit-learn `Pipeline` and `ColumnTransformer`
 - **Feature Engineering:** Derived features like `relative_size`, `accessibility`, and `binary_type`
 - **Feature Selection:** Model-based selection using Random Forest importances (top 30%)
@@ -24,7 +24,7 @@ It covers the complete data science workflow — from data profiling and preproc
 
 ---
 
-## 🧠 Key Results
+## Key Results
 | Model | R² (Baseline) | R² (Engineered) | RMSE (Baseline) | RMSE (Engineered) |
 |-------|----------------|-----------------|-----------------|------------------|
 | Linear Regression | 0.68 | 0.66 | 353,770 | 370,000 |
@@ -36,7 +36,7 @@ It covers the complete data science workflow — from data profiling and preproc
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 - **Language:** Python 3  
 - **Libraries:** pandas, numpy, scikit-learn, matplotlib, seaborn  
 - **Tools:** Jupyter Notebook, GitHub, AWS (for testing and compute)  
